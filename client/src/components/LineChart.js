@@ -109,12 +109,12 @@ const LineChartDemo = () => {
             stroke="red"
             activeDot={{ r: 8 }}
           />
-          <Line
+          {/* <Line
             type="monotone"
             dataKey="id"
             stroke="blue"
             activeDot={{ r: 8 }}
-          />
+          /> */}
 
           <Line
             type="monotone"
