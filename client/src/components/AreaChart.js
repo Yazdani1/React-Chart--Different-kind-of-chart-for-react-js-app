@@ -56,6 +56,11 @@ const AreaChart = () => {
   return (
     <React.Fragment>
       <h2>Are Chart</h2>
+      {[1,2,3,4,5].map((c,index)=>(
+        <>
+        <p>{c}</p>
+        </>
+      ))}
     </React.Fragment>
   );
 };
