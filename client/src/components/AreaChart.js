@@ -58,8 +58,8 @@ const AreaChart = () => {
           margin={{
             top: 10,
             right: 30,
-            left: 0,
-            bottom: 0,
+            left: 10,
+            bottom: 20,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
@@ -69,8 +69,8 @@ const AreaChart = () => {
           <Area
             type="monotone"
             dataKey="uv"
-            stackId="1"
-            stroke="#8884d8"
+            stackId="3"
+            stroke="#888477"
             fill="#8884d8"
           />
           <Area
@@ -84,7 +84,7 @@ const AreaChart = () => {
             type="monotone"
             dataKey="amt"
             stackId="1"
-            stroke="#ffc658"
+            stroke="#ffc655"
             fill="#ffc658"
           />
         </AreaChart>
