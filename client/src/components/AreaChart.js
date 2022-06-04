@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 
 const AreaChart = () => {
-  const [list, setList] = useState([]);
 
   const data = [
     {

@@ -84,7 +84,7 @@ const LineChartDemo = () => {
         <LineChart
           width={900}
           height={500}
-          data={showdata}
+          data={data}
           margin={{
             top: 5,
             right: 30,
@@ -107,6 +107,12 @@ const LineChartDemo = () => {
             type="monotone"
             dataKey="email"
             stroke="red"
+            activeDot={{ r: 8 }}
+          />
+          <Line
+            type="monotone"
+            dataKey="Name"
+            stroke="black"
             activeDot={{ r: 8 }}
           />
           {/* <Line
