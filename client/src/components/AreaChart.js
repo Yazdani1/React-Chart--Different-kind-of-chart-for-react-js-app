@@ -6,20 +6,20 @@ const AreaChart = () => {
   const data = [
     {
       name: "Page A",
-      uv: 4000,
+      uv: 400,
       pv: 2400,
       amt: 2400,
     },
     {
       name: "Page B",
-      uv: 3000,
+      uv: 300,
       pv: 1398,
       amt: 210,
     },
     {
       name: "Page C",
-      uv: 2000,
-      pv: 9800,
+      uv: 20,
+      pv: 980,
       amt: 2290,
     },
     {
@@ -79,6 +79,20 @@ const AreaChart = () => {
             stackId="1"
             stroke="#82ca9d"
             fill="#82ca9d"
+          />
+          <Area
+            type="monotone"
+            dataKey="amt"
+            stackId="1"
+            stroke="#ffc655"
+            fill="#ffc658"
+          />
+          <Area
+            type="monotone"
+            dataKey="amt"
+            stackId="1"
+            stroke="#ffc655"
+            fill="#ffc658"
           />
           <Area
             type="monotone"
